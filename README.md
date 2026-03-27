@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3R5Y3FkYXd0a2U5ZXJyN2ppZXRheHdlM2hsNGZkdXVzdzF0MXZ3MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Dh5q0sShxgp13DwrvG/giphy.gif" alt="Intense Coding GIF" width="350">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG4wNDIwd3A4ZmFlM25jaG82M2ZscHhlZXk5N3hsZWFsbTJsbDJreiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WRsbyaGN8Fwrx9qLTn/giphy.gif" alt="Vibe Coding" width="350">
 </p>
 
 # Hi there 👋, I'm Minh Duong!
