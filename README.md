@@ -1,28 +1,45 @@
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG4wNDIwd3A4ZmFlM25jaG82M2ZscHhlZXk5N3hsZWFsbTJsbDJreiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WRsbyaGN8Fwrx9qLTn/giphy.gif" alt="Vibe Coding" width="350">
-</p>
+# Quang Minh
 
-# Hi there 👋, I'm Minh Duong!
-### Welcome to `theartroutine` 🎨
+Software Engineering student building reliable web and mobile products with Django, Next.js, React Native, and PostgreSQL.
 
-I'm a final-year Software Engineering student navigating the wild world of code. 
+I care about the parts that make a product survive beyond a demo: explicit API contracts, authorization boundaries, concurrent state, recovery after lost connections, tests, and a verifiable release process.
 
-**I'm currently diving into web development with this stack:**
+[View GoPlan](https://github.com/theartroutine/GoPlan) · [Try the live demo](https://goplan.quangmin.me)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/Django_REST-%23A30000.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django REST Framework" />
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/podman-%23892CA0.svg?style=for-the-badge&logo=podman&logoColor=white" alt="Podman" />
-</p>
+## Featured project — GoPlan
 
----
+**GoPlan** is a full-stack group trip planning and coordination platform. It keeps itinerary planning, shared expenses, realtime chat, photos, memory videos, and an AI trip assistant under one trip permission model.
 
-> *Just a fresh account, building my routine, one line of code at a time.* 🌱
+[![GoPlan dashboard](https://raw.githubusercontent.com/theartroutine/GoPlan/main/.github/assets/readme/screenshots/dashboard.webp)](https://goplan.quangmin.me)
 
----
+### What is technically interesting
 
-**Thanks so much for dropping by my profile!** ✨
+- **Web architecture:** Next.js Backend-for-Frontend in front of a Django REST API; refresh tokens stay in httpOnly cookies and access tokens stay in memory.
+- **Realtime reliability:** Django Channels, Redis, ticket-authenticated WebSockets, monotonic event ordering, reconnect handling, and session-bound ownership.
+- **Money workflows:** shared trip expenses, contribution tracking, settlement calculation, and sent/received transfer confirmation.
+- **Human-in-the-loop AI:** GoPlanAI can read trip context and propose actions, but mutations remain drafts until an authorized user confirms them.
+- **Media pipeline:** optimized photo uploads and background FFmpeg rendering for shareable trip highlight videos.
+- **Multiple clients:** a Next.js web application and an Expo/React Native mobile application share the Django domain contracts.
+- **Verification:** extensive backend, frontend, and mobile test suites cover permissions, concurrency, API contracts, realtime recovery, money calculations, and AI draft behavior.
+
+**Stack:** Django 5.2 · Django REST Framework · Next.js 16 · React 19 · Expo/React Native · TypeScript · PostgreSQL · Redis · Celery · Podman · FFmpeg
+
+## How I work
+
+1. Turn a product request into an explicit contract and acceptance criteria.
+2. Trace the change across domain, API, client state, security, and failure modes.
+3. Implement in reviewable slices with regression coverage.
+4. Verify static checks and the rendered/runtime journey separately.
+5. Record what was proven, what remains unverified, and the operational risks.
+
+I use coding agents as implementation leverage, while retaining responsibility for scope, architecture, review, testing, and release decisions. Generated code is a draft until it survives the same review and verification gates as any other contribution.
+
+## Areas I can help with
+
+- Django/DRF APIs and service-layer business logic
+- Next.js BFF integrations and authenticated application flows
+- WebSocket/realtime state, reconnection, ordering, and idempotency bugs
+- Expo/React Native feature work and native iOS Simulator QA
+- Focused debugging, regression tests, and implementation review
+
+I am open to scoped remote collaboration where the expected outcome can be defined and verified clearly.
