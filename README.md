@@ -4,13 +4,13 @@ Software Engineering student building reliable web and mobile products with Djan
 
 I care about the parts that make a product survive beyond a demo: explicit API contracts, authorization boundaries, concurrent state, recovery after lost connections, tests, and a verifiable release process.
 
-[View GoPlan](https://github.com/theartroutine/GoPlan) · [Try the live demo](https://goplan.quangmin.me)
+[View GoPlan](https://github.com/theartroutine/GoPlan)
 
 ## Featured project — GoPlan
 
 **GoPlan** is a full-stack group trip planning and coordination platform. It keeps itinerary planning, shared expenses, realtime chat, photos, memory videos, and an AI trip assistant under one trip permission model.
 
-[![GoPlan dashboard](https://raw.githubusercontent.com/theartroutine/GoPlan/main/.github/assets/readme/screenshots/dashboard.webp)](https://goplan.quangmin.me)
+[![GoPlan dashboard](https://raw.githubusercontent.com/theartroutine/GoPlan/main/.github/assets/readme/screenshots/dashboard.webp)](https://github.com/theartroutine/GoPlan)
 
 ### What is technically interesting
 
